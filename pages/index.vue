@@ -48,7 +48,7 @@
             <h1
               class="mx-auto max-w-4xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
             >
-              Build strong communities with customizable governance tools
+              The open governance solution for web3 communities
             </h1>
             <p class="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
               Empower your community with Snapshot's customizable, user-friendly
@@ -59,7 +59,7 @@
               <a
                 href="#"
                 class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-                >Get strted</a
+                >Get started</a
               >
               <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
                 >Learn more <span aria-hidden="true">→</span></a
@@ -95,6 +95,7 @@
           </svg>
         </div>
       </div>
+      <TheFeatures />
     </main>
   </div>
 </template>
