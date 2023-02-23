@@ -7,7 +7,7 @@ const features = [
     icon: "CloudArrowUpIcon",
   },
   {
-    name: "Customizable Voting Systems.",
+    name: "Diverse Voting Systems.",
     description:
       "Choose from a range of voting systems like Single Choice, Approval Voting, Quadratic Voting and more.",
     icon: "LockClosedIcon",
