@@ -29,7 +29,7 @@ const features = [
 
 <template>
   <div class="overflow-hidden bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl md:px-6 lg:px-8">
+    <div class="mx-auto max-w-screen-xl md:px-6 lg:px-8">
       <div
         class="grid grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:grid-cols-2 lg:items-start"
       >

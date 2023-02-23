@@ -13,7 +13,7 @@ const navigation = [
 </script>
 
 <template>
-  <div class="px-6 pt-6 lg:px-8">
+  <div class="mx-auto max-w-screen-xl px-6 pt-6 lg:px-8">
     <nav class="flex items-center justify-between" aria-label="Global">
       <div class="flex lg:flex-1">
         <NavbarLogo />
