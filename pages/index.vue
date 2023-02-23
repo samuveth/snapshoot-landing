@@ -32,7 +32,7 @@
     <TheNavbar />
     <main>
       <div class="relative px-6 lg:px-8">
-        <div class="mx-auto py-32 sm:py-48 lg:py-56">
+        <div class="mx-auto py-24 sm:py-32">
           <div class="hidden sm:mb-8 sm:flex sm:justify-center">
             <div
               class="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
