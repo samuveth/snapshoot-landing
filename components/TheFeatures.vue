@@ -1,28 +1,33 @@
 <script setup lang="ts">
+import ChatIcon from "~icons/heroicons/chat-bubble-bottom-center-text-20-solid";
+import ChartIcon from "~icons/heroicons/chart-bar-20-solid";
+import CalcIcon from "~icons/heroicons/calculator-20-solid";
+import RecIcon from "~icons/heroicons/rectangle-group-20-solid";
+
 const features = [
   {
-    name: "Custom Branding.",
-    description:
-      "Create your own governance portal and use your own branding, color schemes and domain name.",
-    icon: "CloudArrowUpIcon",
-  },
-  {
-    name: "Diverse Voting Systems.",
+    name: "Voting systems.",
     description:
       "Choose from a range of voting systems like Single Choice, Approval Voting, Quadratic Voting and more.",
-    icon: "LockClosedIcon",
+    icon: ChartIcon,
   },
   {
-    name: "Flexible Voting Strategies.",
+    name: "Voting strategies.",
     description:
       "Customize how voting power is calculated through single or combined strategies, allowing you to vote with ERC20s, NFTs, other contracts and more.",
-    icon: "ServerIcon",
+    icon: CalcIcon,
   },
   {
-    name: "Advanced moderation.",
+    name: "Custom branding.",
+    description:
+      "Create your own governance portal and use your own branding, color schemes and domain name.",
+    icon: RecIcon,
+  },
+  {
+    name: "Powerful moderation.",
     description:
       "Utilize Gitcoin Passport, POAPs or other solutions to dictate who can create a proposal, leave a comment or cast a vote.",
-    icon: "ServerIcon",
+    icon: ChatIcon,
   },
 ];
 </script>
@@ -35,7 +40,7 @@ const features = [
       >
         <div class="px-6 lg:px-0 lg:pt-4 lg:pr-4">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-            <h2 class="text-base font-semibold leading-7 text-primary">
+            <h2 class="text-base font-semibold leading-7 text-secondary">
               Decide faster
             </h2>
             <p
@@ -55,7 +60,7 @@ const features = [
                 <dt class="inline font-semibold text-gray-900">
                   <component
                     :is="feature.icon"
-                    class="absolute top-1 left-1 h-5 w-5 text-indigo-600"
+                    class="absolute top-1 left-1 h-5 w-5 text-secondary"
                     aria-hidden="true"
                   />
                   {{ feature.name }}
@@ -68,7 +73,7 @@ const features = [
         </div>
         <div class="sm:px-6 lg:px-0">
           <div
-            class="relative isolate overflow-hidden bg-primary px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pt-16 sm:pl-16 sm:pr-0 lg:mx-0 lg:max-w-none"
+            class="relative isolate overflow-hidden bg-secondary px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pt-16 sm:pl-16 sm:pr-0 lg:mx-0 lg:max-w-none"
           >
             <div
               class="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-indigo-100 opacity-30 ring-1 ring-inset ring-white"
